@@ -14,6 +14,5 @@ If you use `use-package`.
 (use-package flycheck-inline
   :ensure t
   :config
-  (flycheck-inline-mode 1)
-  )
+  (flycheck-inline-enable))
 ```
