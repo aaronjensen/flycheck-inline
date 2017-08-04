@@ -13,6 +13,7 @@ If you use `use-package`.
 ```elisp
 (use-package flycheck-inline
   :ensure t
-  :config
-  (flycheck-inline-enable))
+  :defer t
+  :init
+  (add-hook 'flycheck-mode-hook 'flycheck-inline-enable))
 ```
